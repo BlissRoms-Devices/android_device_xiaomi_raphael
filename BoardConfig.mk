@@ -16,6 +16,7 @@
 #
 
 BOARD_VENDOR := xiaomi
+SELINUX_IGNORE_NEVERALLOWS=true
 
 DEVICE_PATH := device/xiaomi/raphael
 
