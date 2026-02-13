@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_raphael.mk
+    $(LOCAL_DIR)/bliss_raphael.mk
+
+COMMON_LUNCH_CHOICES := \
+    bliss_raphael-user \
+    bliss_raphael-userdebug \
+    bliss_raphael-eng
