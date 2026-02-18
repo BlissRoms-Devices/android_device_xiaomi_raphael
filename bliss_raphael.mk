@@ -14,6 +14,9 @@ $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 # Inherit from raphael device
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
+# Boot animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := bliss_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_MANUFACTURER := Xiaomi
