@@ -17,6 +17,11 @@ DEVICE_PATH := device/xiaomi/raphael
 # Assert
 TARGET_OTA_ASSERT_DEVICE := raphael,raphaelin
 
+# Camera
+BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_ENFORCE_SYSPROP_OWNER := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 # Display
 TARGET_SCREEN_DENSITY := 440
 
